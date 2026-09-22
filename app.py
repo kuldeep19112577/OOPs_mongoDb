@@ -14,7 +14,7 @@ class Cart:
 
     def __init__(self):
 
-        connection_string = "mongodb+srv://Nexturn_DB20:DjhEobMBQ0rGMW69@cluster0.xnuhy3x.mongodb.net/?appName=Cluster0"
+        connection_string ="URL"
 
         self.mongo_client = MongoClient(connection_string)
         self.database = self.mongo_client["shoppingcart"]
