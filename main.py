@@ -59,7 +59,7 @@ class AttendanceManager:
         return result
     
     
-connection_url = "mongodb+srv://Nexturn_DB20:DjhEobMBQ0rGMW69@cluster0.xnuhy3x.mongodb.net/?appName=Cluster0"
+connection_url ="URL"
 
 manager = AttendanceManager(
     connection_url,
